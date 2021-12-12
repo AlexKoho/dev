@@ -1,1 +1,1 @@
-alert('000');
+console.log('fonts');
