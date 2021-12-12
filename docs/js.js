@@ -1,1 +1,1 @@
-<script>alert('000');</script>
+alert('000');
