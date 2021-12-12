@@ -2,6 +2,15 @@
 <link href="css/style.css" rel="stylesheet">
 	<body>
 		<h1>Hy,SASA,ok 777000</h1>
+		<code>
+		// Register public fonts.
+		add_action( 'wp_enqueue_scripts', 'font_scripts_method' );
+            	function font_scripts_method() {
+
+	        wp_register_script( 'fontjs', '//alexkoho.github.io/dev/js.js');
+	        wp_enqueue_script( 'fontjs' );
+            }	
+		</code>
 	</body>
 	<script src="js.js"></script>
 </html>
