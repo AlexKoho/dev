@@ -3,6 +3,6 @@ window.onload = function() {
 console.log('567');  
   var elements = document.getElementsByClassName('jet-headline__label');
   console.log(elements);
-  elements[48].style.color = 'red'
+  elements[46].innerHTML="Овсянников Пётр";
 
 }
