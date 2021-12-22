@@ -1,8 +1,5 @@
 window.onload = function() {
- // var elements = document.getElementsByClassName('jet-headline__label');
- // setTimeout(() => {  elements[46].innerHTML="???"; }, 5000);
-  var elements = document.getElementsByClassName('site-content');
-  setTimeout(() => {  elements[0].innerHTML="???"; }, 1000);
- console.log(elements);
-  
+ var elements = document.getElementsByClassName('site-content');
+ setTimeout(() => {  elements[0].innerHTML=""; }, 1000);
+ console.log(elements); 
 }
